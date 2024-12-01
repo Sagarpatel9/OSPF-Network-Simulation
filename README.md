@@ -36,10 +36,14 @@ This project simulates an enterprise-level network using **Cisco Packet Tracer**
       ip ospf message-digest-key 1 md5 [encrypted-password]
      ```
 
-## Project Goals
+## **Project Goals**
 - Understand OSPF configuration and database verification.
 - Demonstrate routing across multiple subnets.
 - Implement redundancy and efficient routing through OSPF.
+- **Enhance network security** by implementing OSPF authentication using message-digest encryption.
+- **Simplify IP management** through dynamic IP allocation using DHCP.
+- Ensure scalability and reliability by configuring the network for future IPv6 support.
+
 
 ## Topology
 ![Network Topology](diagram/OSPF_typology.png)
