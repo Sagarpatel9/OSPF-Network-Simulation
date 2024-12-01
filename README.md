@@ -3,11 +3,38 @@
 ## Overview
 This project simulates an enterprise-level network using **Cisco Packet Tracer**, implementing the **OSPF (Open Shortest Path First)** routing protocol. The setup demonstrates dynamic routing, IP addressing, and network connectivity using OSPF's Area 0.
 
-## Key Features
-- Configured OSPF dynamic routing for four interconnected routers.
-- Enabled DHCP for dynamic IP assignment to hosts.
-- Verified network connectivity using OSPF database commands.
-- Troubleshooted OSPF adjacency and routing issues.
+## **Project Features**
+1. **Dynamic Routing with OSPF:**
+   - Configured OSPF with message-digest authentication for secure route advertisements.
+   - Enabled OSPF for multiple subnets across four routers.
+   - Used OSPF network types (point-to-point).
+
+2. **DHCP Configuration:**
+   - DHCP pool configured on the routers to assign IPs to connected devices dynamically.
+   - DHCP lease time set for efficient IP address utilization.
+
+3. **Router Security:**
+   - Enabled **enable secret** for encrypted privileged access passwords.
+   - Configured OSPF with **message-digest-key** to encrypt routing updates.
+   - Encrypted all plain-text passwords using `service password-encryption`.
+
+4. **Interface Management:**
+   - Configured router interfaces with proper IP addressing and OSPF settings.
+   - Disabled unused interfaces to improve security and performance.
+  
+## **Security Features**
+1. **Encrypted Router Passwords:**
+   - Used `enable secret` to configure the privileged mode password with encryption.
+   - Enabled `service password-encryption` to encrypt all plain-text passwords stored in the configuration.
+
+2. **OSPF Message-Digest Authentication:**
+   - Configured OSPF with `message-digest-key` to ensure secure communication between routers.
+   - Example configuration:
+     ```plaintext
+     interface FastEthernet1/1
+      ip ospf authentication message-digest
+      ip ospf message-digest-key 1 md5 [encrypted-password]
+     ```
 
 ## Project Goals
 - Understand OSPF configuration and database verification.
