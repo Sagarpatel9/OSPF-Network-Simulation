@@ -15,7 +15,7 @@ This project simulates an enterprise-level network using **Cisco Packet Tracer**
 - Implement redundancy and efficient routing through OSPF.
 
 ## Topology
-![Network Topology](diagrams/ospf)
+![Network Topology](diagram/OSPF typology.png)
 
 ### Network Details
 - **Routers**: R1, R2, R3, R4
