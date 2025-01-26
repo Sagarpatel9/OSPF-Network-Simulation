@@ -60,26 +60,7 @@ interface FastEthernet1/1
 - Protected communication between subnets (192.168.1.0/24 and 192.168.5.0/24).
 
 #### Example IPsec Configuration:
-```plaintext
-crypto isakmp policy 10
- encryption aes
- hash sha512
- authentication pre-share
- group 14
- lifetime 86400
-exit
-crypto isakmp key MYSECRETKEY address 103.1.1.2
-crypto ipsec transform-set MYTRANSFORM esp-aes esp-sha512-hmac
-ip access-list extended PROTECTED_TRAFFIC
- permit ip 192.168.1.0 0.0.0.255 192.168.5.0 0.0.0.255
-crypto map CMAP 10 ipsec-isakmp
- set peer 103.1.1.2
- set transform-set MYTRANSFORM
- match address PROTECTED_TRAFFIC
-exit
-interface FastEthernet0/0
- crypto map CMAP
-```
+(diagrams/)
 
 ---
 
