@@ -59,7 +59,7 @@ interface FastEthernet1/1
 - Configured IPsec Phase 2 for encryption and integrity using ESP.
 - Protected communication between subnets (192.168.1.0/24 and 192.168.5.0/24).
 
-#### Example IPsec Configuration:
+#### IPsec Configuration:
 ![IPsec](diagram/Ipsecconfig.png)
 
 ---
