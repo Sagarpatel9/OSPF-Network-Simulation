@@ -78,7 +78,7 @@ interface FastEthernet1/1
 ## Topology
 
 ### **Network Topology**
-![Network Topology](OSPF-Network-Simulation/diagrams/network_topology.png)
+![Network Topology](diagram/OSPF_typology.png)
 
 ---
 
