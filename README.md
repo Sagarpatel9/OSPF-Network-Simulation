@@ -105,9 +105,9 @@ Located in the `configs/` directory:
 ### **Diagrams**
 Located in the `diagrams/` directory:
 - `network_topology.png`: Visual representation of the network.
-- `routerXospfdatabase.png`: Screenshots of OSPF databases for verification.
-- `wireshark_before_esp.png`: Packet capture before IPsec (plain-text ICMP traffic).
-- `wireshark_after_esp.png`: Packet capture after IPsec (encrypted ESP traffic).
+- `router1ospfdatabase.png`: Screenshots of OSPF databases for verification.
+- `wiresharkbeforeesp.png`: Packet capture before IPsec (plain-text ICMP traffic).
+- `wiresharkafteresp.png`: Packet capture after IPsec (encrypted ESP traffic).
 
 ---
 
