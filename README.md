@@ -46,7 +46,7 @@ This project simulates an enterprise-level network using **Cisco Packet Tracer**
 - Configured OSPF with `message-digest-key` to ensure secure communication between routers.
 
 #### Example OSPF Configuration:
-![R1 OSPF](diagram/ospf.png)
+![R1 OSPF](diagram/ospf_config.png)
 
 ---
 
