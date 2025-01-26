@@ -93,12 +93,13 @@ interface FastEthernet1/1
 
 ## File Descriptions
 
-### **Configuration Files**
+### **Configuration Files for OSPF**
 Located in the `configs/` directory:
-- `R1_i1_startup-config.cfg`: Startup configuration for Router 1 (includes IPsec settings).
+- `R1_i1_startup-config.cfg`: Startup configuration for Router 1 
 - `R2_i2_startup-config.cfg`: Startup configuration for Router 2.
 - `R3_i3_startup-config.cfg`: Startup configuration for Router 3.
-- `R4_i4_startup-config.cfg`: Startup configuration for Router 4 (includes IPsec settings).
+- `R4_i4_startup-config.cfg`: Startup configuration for Router 4.
+- ### Note: Configure file does not include ESP configuration.
 
 ---
 
