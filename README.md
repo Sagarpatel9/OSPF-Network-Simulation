@@ -31,7 +31,7 @@ Helpdesk technicians are the first point of contact when users report "I can't c
 
 ## Network Topology
 
-![Network Topology](diagrams/OSPF_typology.png)
+![Network Topology](diagram/OSPF_typology.png)
 
 ---
 
