@@ -84,7 +84,7 @@ OSPF (Open Shortest Path First) was configured across all four routers so that e
 ### 3. Interface Configuration
 Each router interface was configured with a static IP on the WAN side (router-to-router links) and acts as the gateway on the LAN side (user subnet).
 
-![Router Interface Configuration](diagrams/ospf_config.png)
+![Router Interface Configuration](diagram/ospf_config.png)
 
 ---
 
@@ -95,19 +95,19 @@ The `show ip ospf database` command confirms that all routers have learned about
 
 **R1 OSPF Database:**
 
-![R1 OSPF Database](diagrams/router1ospfdatabase.png)
+![R1 OSPF Database](diagram/router1ospfdatabase.png)
 
 **R2 OSPF Database:**
 
-![R2 OSPF Database](diagrams/router2ospfdatabase.png)
+![R2 OSPF Database](diagram/router2ospfdatabase.png)
 
 **R3 OSPF Database:**
 
-![R3 OSPF Database](diagrams/router3ospfdatabase.png)
+![R3 OSPF Database](diagram/router3ospfdatabase.png)
 
 **R4 OSPF Database:**
 
-![R4 OSPF Database](diagrams/router4ospfdatabase.png)
+![R4 OSPF Database](diagram/router4ospfdatabase.png)
 
 All four routers (1.1.1.1, 2.2.2.2, 3.3.3.3, 4.4.4.4) appear in every database — confirming full network convergence.
 
